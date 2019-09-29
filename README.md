@@ -1,1 +1,1 @@
-# aster-thesis-speech-impairments-deep-learning
+# Master-thesis-speech-impairments-deep-learning
