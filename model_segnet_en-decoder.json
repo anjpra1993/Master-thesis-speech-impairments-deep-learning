@@ -1,12 +1,12 @@
 {
   "class_name": "Sequential",
   "config": {
-    "name": "sequential_2",
+    "name": "sequential_1",
     "layers": [
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_27",
+          "name": "conv2d_1",
           "trainable": true,
           "batch_input_shape": [
             null,
@@ -55,7 +55,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_27",
+          "name": "batch_normalization_1",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -88,7 +88,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_27",
+          "name": "activation_1",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -97,7 +97,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_28",
+          "name": "conv2d_2",
           "trainable": true,
           "dtype": "float32",
           "filters": 64,
@@ -140,7 +140,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_28",
+          "name": "batch_normalization_2",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -173,7 +173,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_28",
+          "name": "activation_2",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -182,7 +182,7 @@
       {
         "class_name": "MaxPooling2D",
         "config": {
-          "name": "max_pooling2d_6",
+          "name": "max_pooling2d_1",
           "trainable": true,
           "dtype": "float32",
           "pool_size": [
@@ -200,7 +200,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_29",
+          "name": "conv2d_3",
           "trainable": true,
           "dtype": "float32",
           "filters": 128,
@@ -243,7 +243,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_29",
+          "name": "batch_normalization_3",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -276,7 +276,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_29",
+          "name": "activation_3",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -285,7 +285,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_30",
+          "name": "conv2d_4",
           "trainable": true,
           "dtype": "float32",
           "filters": 128,
@@ -328,7 +328,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_30",
+          "name": "batch_normalization_4",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -361,7 +361,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_30",
+          "name": "activation_4",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -370,7 +370,7 @@
       {
         "class_name": "MaxPooling2D",
         "config": {
-          "name": "max_pooling2d_7",
+          "name": "max_pooling2d_2",
           "trainable": true,
           "dtype": "float32",
           "pool_size": [
@@ -388,7 +388,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_31",
+          "name": "conv2d_5",
           "trainable": true,
           "dtype": "float32",
           "filters": 256,
@@ -431,7 +431,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_31",
+          "name": "batch_normalization_5",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -464,7 +464,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_31",
+          "name": "activation_5",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -473,7 +473,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_32",
+          "name": "conv2d_6",
           "trainable": true,
           "dtype": "float32",
           "filters": 256,
@@ -516,7 +516,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_32",
+          "name": "batch_normalization_6",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -549,7 +549,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_32",
+          "name": "activation_6",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -558,7 +558,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_33",
+          "name": "conv2d_7",
           "trainable": true,
           "dtype": "float32",
           "filters": 256,
@@ -601,7 +601,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_33",
+          "name": "batch_normalization_7",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -634,7 +634,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_33",
+          "name": "activation_7",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -643,7 +643,7 @@
       {
         "class_name": "MaxPooling2D",
         "config": {
-          "name": "max_pooling2d_8",
+          "name": "max_pooling2d_3",
           "trainable": true,
           "dtype": "float32",
           "pool_size": [
@@ -661,7 +661,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_34",
+          "name": "conv2d_8",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -704,7 +704,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_34",
+          "name": "batch_normalization_8",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -737,7 +737,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_34",
+          "name": "activation_8",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -746,7 +746,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_35",
+          "name": "conv2d_9",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -789,7 +789,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_35",
+          "name": "batch_normalization_9",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -822,7 +822,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_35",
+          "name": "activation_9",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -831,7 +831,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_36",
+          "name": "conv2d_10",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -874,7 +874,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_36",
+          "name": "batch_normalization_10",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -907,7 +907,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_36",
+          "name": "activation_10",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -916,7 +916,7 @@
       {
         "class_name": "MaxPooling2D",
         "config": {
-          "name": "max_pooling2d_9",
+          "name": "max_pooling2d_4",
           "trainable": true,
           "dtype": "float32",
           "pool_size": [
@@ -934,7 +934,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_37",
+          "name": "conv2d_11",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -977,7 +977,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_37",
+          "name": "batch_normalization_11",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1010,7 +1010,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_37",
+          "name": "activation_11",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1019,7 +1019,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_38",
+          "name": "conv2d_12",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -1062,7 +1062,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_38",
+          "name": "batch_normalization_12",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1095,7 +1095,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_38",
+          "name": "activation_12",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1104,7 +1104,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_39",
+          "name": "conv2d_13",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -1147,7 +1147,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_39",
+          "name": "batch_normalization_13",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1180,7 +1180,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_39",
+          "name": "activation_13",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1189,7 +1189,7 @@
       {
         "class_name": "MaxPooling2D",
         "config": {
-          "name": "max_pooling2d_10",
+          "name": "max_pooling2d_5",
           "trainable": true,
           "dtype": "float32",
           "pool_size": [
@@ -1207,7 +1207,7 @@
       {
         "class_name": "UpSampling2D",
         "config": {
-          "name": "up_sampling2d_6",
+          "name": "up_sampling2d_1",
           "trainable": true,
           "dtype": "float32",
           "size": [
@@ -1221,7 +1221,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_40",
+          "name": "conv2d_14",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -1264,7 +1264,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_40",
+          "name": "batch_normalization_14",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1297,7 +1297,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_40",
+          "name": "activation_14",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1306,7 +1306,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_41",
+          "name": "conv2d_15",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -1349,7 +1349,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_41",
+          "name": "batch_normalization_15",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1382,7 +1382,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_41",
+          "name": "activation_15",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1391,7 +1391,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_42",
+          "name": "conv2d_16",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -1434,7 +1434,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_42",
+          "name": "batch_normalization_16",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1467,7 +1467,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_42",
+          "name": "activation_16",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1476,7 +1476,7 @@
       {
         "class_name": "UpSampling2D",
         "config": {
-          "name": "up_sampling2d_7",
+          "name": "up_sampling2d_2",
           "trainable": true,
           "dtype": "float32",
           "size": [
@@ -1490,7 +1490,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_43",
+          "name": "conv2d_17",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -1533,7 +1533,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_43",
+          "name": "batch_normalization_17",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1566,7 +1566,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_43",
+          "name": "activation_17",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1575,7 +1575,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_44",
+          "name": "conv2d_18",
           "trainable": true,
           "dtype": "float32",
           "filters": 512,
@@ -1618,7 +1618,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_44",
+          "name": "batch_normalization_18",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1651,7 +1651,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_44",
+          "name": "activation_18",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1660,7 +1660,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_45",
+          "name": "conv2d_19",
           "trainable": true,
           "dtype": "float32",
           "filters": 256,
@@ -1703,7 +1703,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_45",
+          "name": "batch_normalization_19",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1736,7 +1736,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_45",
+          "name": "activation_19",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1745,7 +1745,7 @@
       {
         "class_name": "UpSampling2D",
         "config": {
-          "name": "up_sampling2d_8",
+          "name": "up_sampling2d_3",
           "trainable": true,
           "dtype": "float32",
           "size": [
@@ -1759,7 +1759,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_46",
+          "name": "conv2d_20",
           "trainable": true,
           "dtype": "float32",
           "filters": 256,
@@ -1802,7 +1802,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_46",
+          "name": "batch_normalization_20",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1835,7 +1835,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_46",
+          "name": "activation_20",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1844,7 +1844,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_47",
+          "name": "conv2d_21",
           "trainable": true,
           "dtype": "float32",
           "filters": 256,
@@ -1887,7 +1887,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_47",
+          "name": "batch_normalization_21",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -1920,7 +1920,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_47",
+          "name": "activation_21",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -1929,7 +1929,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_48",
+          "name": "conv2d_22",
           "trainable": true,
           "dtype": "float32",
           "filters": 128,
@@ -1972,7 +1972,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_48",
+          "name": "batch_normalization_22",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -2005,7 +2005,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_48",
+          "name": "activation_22",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -2014,7 +2014,7 @@
       {
         "class_name": "UpSampling2D",
         "config": {
-          "name": "up_sampling2d_9",
+          "name": "up_sampling2d_4",
           "trainable": true,
           "dtype": "float32",
           "size": [
@@ -2028,7 +2028,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_49",
+          "name": "conv2d_23",
           "trainable": true,
           "dtype": "float32",
           "filters": 128,
@@ -2071,7 +2071,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_49",
+          "name": "batch_normalization_23",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -2104,7 +2104,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_49",
+          "name": "activation_23",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -2113,7 +2113,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_50",
+          "name": "conv2d_24",
           "trainable": true,
           "dtype": "float32",
           "filters": 64,
@@ -2156,7 +2156,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_50",
+          "name": "batch_normalization_24",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -2189,7 +2189,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_50",
+          "name": "activation_24",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -2198,7 +2198,7 @@
       {
         "class_name": "UpSampling2D",
         "config": {
-          "name": "up_sampling2d_10",
+          "name": "up_sampling2d_5",
           "trainable": true,
           "dtype": "float32",
           "size": [
@@ -2212,7 +2212,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_51",
+          "name": "conv2d_25",
           "trainable": true,
           "dtype": "float32",
           "filters": 64,
@@ -2255,7 +2255,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_51",
+          "name": "batch_normalization_25",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -2288,7 +2288,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_51",
+          "name": "activation_25",
           "trainable": true,
           "dtype": "float32",
           "activation": "relu"
@@ -2297,7 +2297,7 @@
       {
         "class_name": "Conv2D",
         "config": {
-          "name": "conv2d_52",
+          "name": "conv2d_26",
           "trainable": true,
           "dtype": "float32",
           "filters": 2,
@@ -2340,7 +2340,7 @@
       {
         "class_name": "BatchNormalization",
         "config": {
-          "name": "batch_normalization_52",
+          "name": "batch_normalization_26",
           "trainable": true,
           "dtype": "float32",
           "axis": -1,
@@ -2373,7 +2373,7 @@
       {
         "class_name": "Reshape",
         "config": {
-          "name": "reshape_2",
+          "name": "reshape_1",
           "trainable": true,
           "dtype": "float32",
           "target_shape": [
@@ -2385,7 +2385,7 @@
       {
         "class_name": "Permute",
         "config": {
-          "name": "permute_2",
+          "name": "permute_1",
           "trainable": true,
           "dtype": "float32",
           "dims": [
@@ -2397,7 +2397,7 @@
       {
         "class_name": "Activation",
         "config": {
-          "name": "activation_52",
+          "name": "activation_26",
           "trainable": true,
           "dtype": "float32",
           "activation": "softmax"
