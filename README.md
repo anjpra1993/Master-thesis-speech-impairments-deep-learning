@@ -1,6 +1,6 @@
 # Master Thesis on 'Detecting speech impairments using Deep learning methods'.
 Method 1: FCN using Keras (Fully convolutional networks and semantic segmentation with Keras)
-<a target="_blank" rel="noopener noreferrer" href="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiN89Hsp8nlAhXJYlAKHVbfDCQQjRx6BAgBEAQ&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FFully-convolutional-neural-network-architecture-FCN-8_fig1_327521314&psig=AOvVaw19pESf4ehIF2hvn-EPYz3J&ust=1572707917336580"
+https://www.researchgate.net/publication/327521314/figure/download/fig1/AS:668413361930241@1536373572028/Fully-convolutional-neural-network-architecture-FCN-8.ppm
 
 Method 2: SegNet using Keras
 Implementation of SegNet Encoder-Decoder network architecture using keras.
